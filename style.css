@@ -443,14 +443,14 @@ hr.light-100 {
 @media (max-width: 400px) {
   #Schedule_body ul {
     position: relative;
-    left: -2%;
+    left: -4%;
   }
 }
 
 @media (max-width: 380px) {
   #Schedule_body ul {
     position: relative;
-    left: -4%;
+    left: -6%;
   }
 }
 
