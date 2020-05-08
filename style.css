@@ -6,7 +6,6 @@ html, body {
   font-family: 'Poppins', sans-serif;
   color: #222;
   scroll-behavior: smooth;
-  /*overflow-x: hidden;*/
 }
 
 .card {
@@ -53,6 +52,18 @@ html, body {
   transform: translateY(-50%);
 }
 
+
+.carousel-caption p {
+  color: rgb(199, 49, 49);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  position: relative;
+  top: -50%;
+  text-shadow: 1px 1px 10px black;
+  font-size: 300%;
+  text-transform: uppercase;
+}
+
 .carousel-caption h1 {
   font-size: 500%;
   text-transform: uppercase;
@@ -71,13 +82,13 @@ html, body {
 }
 
 .btn-primary {
-  background-color: #6648b1;
-  border: 1px solid #6648b1;
+  background-color: #475a77;
+  border: 1px solid #305080;
 }
 
 .btn-primary:hover {
-  background-color: #563d7c;
-  border: 1px slid #563d7c;
+  background-color: #28579e;
+  border: 1px slid #28579e;
 }
 
 /* JumboTron */
@@ -90,11 +101,11 @@ html, body {
 
 .jumbotron h1, .jumbotron p, hr.abouhr {
   position: relative;
-  left: 110px;
+  left: 9%;
 }
 
 hr.abouhr {
-  border-top: 2px solid #b4b4b4;
+  border-top: 2px solid #5c4444;
   width: 8%;
   margin-top: .3rem;
   margin-bottom: 1rem;
@@ -125,6 +136,16 @@ hr.abouhr {
 
 .fa-code {
   color: #e54d26;
+}
+
+#Schedule_body {
+  position: relative;
+  top: -50px;
+  text-align: center;
+}
+
+.fa-code::before {
+  content: url("https://lh3.googleusercontent.com/-VPr8buUo47w/VjMsRPIzr-I/AAAAAAAAAL4/AYBtvlNCQiw/s64-Ic42/clouds_social_media_icons_set_64x64_0000_facebook.png");
 }
 
 .fa-bold {
@@ -165,9 +186,15 @@ hr.abouhr {
 }
 
 footer {
-  background-color: #3f3f3f;
+  background-color: #e25d5d;
   color: #d5d5d5;
-  padding-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: -2rem;
+}
+
+#socialIcons a {
+  margin: 50px;
+
 }
 
 hr.light {
@@ -184,8 +211,43 @@ hr.light-100 {
   margin-bottom: 1rem;
 }
 
+/*Schedule body*/
+
+#Schedule_body ul{
+  color: rgb(107, 34, 34);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  font-weight: 540;
+  text-align: center;
+}
+
+#Schedule_body h2 {
+  font-size: 20px;
+  font-weight: 250;
+}
+
+#Schedule_body h4 {
+  font-size: 225%;
+}
+
+#Schedule_body h7 {
+  font-size: 100%; 
+  font-weight:225;
+}
+
+#Schedule_body img {
+  border-radius: 40%;
+  box-shadow: grey 0px 0px 5px 0px;
+}
+
+
 /*---Media Queries --*/
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
+  .carousel-caption p{
+    position: relative;
+    top: -52%;
+  }
+
   .navbar-brand img {
     display: hidden;
   }
@@ -196,15 +258,69 @@ hr.light-100 {
 
   .jumbotron h1, .jumbotron p, hr.abouhr {
     position: relative;
-    left: 0px;
-  }}
+    left: 15%;
+  }
+}
+
+@media (max-width: 1060px) {
+  .carousel-caption {
+    top: 40%;
+  }
+
+  #Schedule_body h4 {
+    position: relative;
+    top: 5%;
+  }
+
+  #Schedule_body h7 {
+    position: relative;
+    top: 15px;
+  }
+
+
+
+}
+
+@media (max-width: 992px) {
+  .carousel-caption {
+    top: 40%;
+  }
+  .navbar-brand img {
+    display: hidden;
+  }
+  .social a {
+    font-size: 4em;
+    padding: 1.5rem;
+  }
+
+  .jumbotron h1, .jumbotron p, hr.abouhr {
+    position: relative;
+    text-align: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .carousel-caption {
+    top: 35%;
+  }
+
+  .carousel-caption p{
+    font-size: 250%;
+    top: -55%;
+  }
+}
+
 @media (max-width: 768px) {
   .carousel-caption {
-    top: 45%;
+    top: 35%;
   }
 
   .carousel-caption h1 {
     font-size: 350%;
+  }
+
+  .carousel-caption p {
+    font-size: 200%;
   }
 
   .carousel-caption h3 {
@@ -223,12 +339,39 @@ hr.light-100 {
     font-size: 200%;
   }
 
+  .jumbotron h1, .jumbotron p, hr.abouhr {
+    position: relative;
+    left: -1%;
+  }
   .social a {
     font-size: 2.5em;
     padding: 1.2rem;
   }
+
+  #Schedule_body h4 {
+    font-size: 200%;
+  }
+
+  #Schedule_body h7 {
+    font-size: 90%;
+  }
+
 }
-@media (max-width: 576px) {
+
+@media (max-width: 700px) {
+  #Schedule_body h4 {
+    font-size: 160%;
+    top: 10%;
+  }
+
+  #Schedule_body h7 {
+    font-size: 90%;
+    top: 20px;
+  }
+
+}
+
+@media (max-width: 580px) {
   .carousel-caption {
     top: 40%;
   }
@@ -236,7 +379,7 @@ hr.light-100 {
   .carousel-caption h1 {
     font-size: 250%;
   }
-    
+
   .carousel-caption h3 {
     font-size: 110%;
   }
@@ -257,6 +400,23 @@ hr.light-100 {
   .social a {
     font-size: 2em;
     padding: .7rem;
+  }
+
+  #Schedule_body h4 {
+    font-size: 120%;
+    position: relative;
+    top: 65px;
+  }
+
+  #Schedule_body h7 {
+    font-size: 100%;
+    position: relative;
+    top: 65px;
+  }
+
+  #schd_img {
+    position: relative;
+    top: 40px;
   }
 
 }
@@ -331,3 +491,11 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
+
+
+
+
+
+
+
+
