@@ -15,6 +15,11 @@ html, body {
   margin-bottom: 10px;
 }
 
+.card-text br {
+  display: block;
+  margin: 100px 0;
+}
+
 .navbar {
   opacity: 1;
   transition: opacity 0.5s ease;
