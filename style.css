@@ -249,10 +249,8 @@ hr.light-100 {
 /*---Media Queries --*/
 @media (max-width: 1200px) {
   #Schedule_body ul{
-    color: rgb(107, 34, 34);
-    font-family: 'Times New Roman', Times, serif;
     font-size: 200%;
-    font-weight: 540;
+    font-weight: 480;
     position: relative;
     left:-3.75%;
   }
@@ -327,6 +325,13 @@ hr.light-100 {
 }
 
 @media (max-width: 768px) {
+  #Schedule_body ul{
+    font-size: 160%;
+    font-weight: 450;
+    position: relative;
+    left:-5%;
+  }
+
   .carousel-caption {
     top: 35%;
   }
