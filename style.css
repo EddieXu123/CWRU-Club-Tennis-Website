@@ -391,9 +391,6 @@ hr.light-100 {
 }
 
 @media (max-width: 580px) {
-  .carousel-caption {
-    top: 40%;
-  }
     
   .carousel-caption h1 {
     font-size: 250%;
@@ -441,6 +438,10 @@ hr.light-100 {
 }
 
 @media (max-width: 400px) {
+  .carousel-caption {
+    top: 20%;
+  }
+
   #Schedule_body ul {
     position: relative;
     left: -4%;
@@ -448,11 +449,16 @@ hr.light-100 {
 }
 
 @media (max-width: 380px) {
+  .carousel-caption {
+    top: 20%;
+  }
+
   #Schedule_body ul {
     position: relative;
     left: -6%;
   }
 }
+
 
 
 /*---Firefox Bug Fix --*/
