@@ -429,7 +429,6 @@ hr.light-100 {
 
   #Schedule_body h7 {
     font-size: 100%;
-    left: -5%;
     position: relative;
     top: 65px;
   }
@@ -451,7 +450,7 @@ hr.light-100 {
 @media (max-width: 380px) {
   #Schedule_body ul {
     position: relative;
-    left: -6%;
+    left: -10%;
   }
 }
 
