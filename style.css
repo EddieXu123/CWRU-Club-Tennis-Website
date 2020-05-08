@@ -450,12 +450,18 @@ hr.light-100 {
 
 @media (max-width: 380px) {
   .carousel-caption {
-    top: 20%;
+    top: 10%;
   }
 
   #Schedule_body ul {
     position: relative;
     left: -6%;
+  }
+}
+
+@media (max-width: 380px) {
+  .carousel-caption {
+    top: 3%;
   }
 }
 
