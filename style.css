@@ -294,7 +294,7 @@ hr.light-100 {
 
 @media (max-width: 992px) {
   .carousel-caption {
-    top: 45%; /*Need to make go up more*/
+    top: 40%;
   }
   .navbar-brand img {
     display: hidden;
@@ -399,7 +399,7 @@ hr.light-100 {
 @media (max-width: 580px) {
 
   .carousel-caption {
-    top: 3%;
+    top: 10%;
   }
     
   .carousel-caption h1 {
@@ -463,7 +463,7 @@ hr.light-100 {
 
 @media (max-width: 400px) {
   .carousel-caption {
-    top: 25%;
+    top: 22.5%;
   }
 
   #Schedule_body ul {
