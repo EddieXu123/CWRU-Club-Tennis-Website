@@ -294,7 +294,7 @@ hr.light-100 {
 
 @media (max-width: 992px) {
   .carousel-caption {
-    top: 40%;
+    top: 38%; /*Need to make go up more*/
   }
   .navbar-brand img {
     display: hidden;
@@ -397,6 +397,10 @@ hr.light-100 {
 }
 
 @media (max-width: 580px) {
+
+  .carousel-caption {
+    top: 4%;
+  }
     
   .carousel-caption h1 {
     font-size: 230%;
