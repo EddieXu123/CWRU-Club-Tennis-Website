@@ -216,10 +216,10 @@ hr.light-100 {
 #Schedule_body ul{
   color: rgb(107, 34, 34);
   font-family: 'Times New Roman', Times, serif;
-  font-size: 270%;
+  font-size: 240%;
   font-weight: 540;
   position: relative;
-  left:-1%;
+  left:-1.5%;
 }
 
 #Schedule_body h2 {
@@ -245,13 +245,14 @@ hr.light-100 {
 /*---Media Queries --*/
 @media (max-width: 1200px) {
   #Schedule_body ul{
-    font-size: 200%;
     font-weight: 480;
     position: relative;
     left:-3.75%;
   }
 
-
+  #Schedule_body h3 {
+    font-size: 150%;
+  }
 
   .carousel-caption p{
     position: relative;
@@ -322,8 +323,17 @@ hr.light-100 {
 
 @media (max-width: 768px) {
   #Schedule_body ul{
+    font-size: 200%;
     position: relative;
     left:-5%;
+  }
+
+  #Schedule_body h2 {
+    font-size: 88%;
+  }
+
+  #Schedule_body h3 {
+    font-size: 140%;
   }
 
   .carousel-caption {
@@ -414,6 +424,18 @@ hr.light-100 {
     padding: .7rem;
   }
 
+  #Schedule_body ul {
+    font-size: 160%;
+  }
+
+  #Schedule_body h3 {
+    font-size: 120%;
+  }
+
+  #Schedule_body h2 {
+    font-size: 80%;
+  }
+
   #Schedule_body h4 {
     font-size: 120%;
     position: relative;
@@ -446,7 +468,7 @@ hr.light-100 {
 
 @media (max-width: 380px) {
   .carousel-caption {
-    top: 11%;
+    top: 21%;
   }
 
   #Schedule_body ul {
@@ -457,7 +479,7 @@ hr.light-100 {
 
 @media (max-width: 360px) {
   .carousel-caption {
-    top: 7%;
+    top: 17%;
   }
 }
 
