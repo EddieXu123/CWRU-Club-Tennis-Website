@@ -312,7 +312,7 @@ hr.light-100 {
 
 @media (max-width: 900px) {
   .carousel-caption {
-    top: 35%;
+    top: 40%;
   }
 
   .carousel-caption p{
@@ -337,7 +337,7 @@ hr.light-100 {
   }
 
   .carousel-caption {
-    top: 40%;
+    top: 35%;
   }
 
   .carousel-caption h1 {
