@@ -470,7 +470,7 @@ hr.light-100 {
 
 @media (max-width: 380px) {
   .carousel-caption {
-    top: 25%;
+    top: 30%;
   }
 
   #Schedule_body ul {
