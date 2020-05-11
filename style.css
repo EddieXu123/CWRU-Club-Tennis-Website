@@ -399,11 +399,11 @@ hr.light-100 {
 @media (max-width: 580px) {
     
   .carousel-caption h1 {
-    font-size: 250%;
+    font-size: 230%;
   }
 
   .carousel-caption h3 {
-    font-size: 110%;
+    font-size: 100%;
   }
     
   .carousel-caption .btn {
@@ -419,13 +419,15 @@ hr.light-100 {
     font-size: 160%;
   }
 
+
+
   .social a {
     font-size: 2em;
     padding: .7rem;
   }
 
   #Schedule_body ul {
-    font-size: 160%;
+    font-size: 140%;
   }
 
   #Schedule_body h3 {
@@ -433,7 +435,7 @@ hr.light-100 {
   }
 
   #Schedule_body h2 {
-    font-size: 80%;
+    font-size: 78%;
   }
 
   #Schedule_body h4 {
