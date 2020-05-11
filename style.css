@@ -75,10 +75,6 @@ html, body {
   text-shadow: 1px 1px 10px black;
 }
 
-#news_stuff {
-
-}
-
 .carousel-caption h3 {
   font-size: 200%;
   font-weight: 500;
@@ -223,7 +219,7 @@ hr.light-100 {
   font-size: 270%;
   font-weight: 540;
   position: relative;
-  left:-3.75%;
+  left:-1%;
 }
 
 #Schedule_body h2 {
@@ -241,7 +237,7 @@ hr.light-100 {
 }
 
 #Schedule_body img {
-  border-radius: 40%;
+  border-radius: 0%;
   box-shadow: grey 0px 0px 5px 0px;
 }
 
@@ -380,12 +376,12 @@ hr.light-100 {
 @media (max-width: 700px) {
   #Schedule_body h4 {
     font-size: 160%;
-    top: 10%;
+    top: 0%;
   }
 
   #Schedule_body h7 {
     font-size: 90%;
-    top: 20px;
+    top: 0px;
   }
 
 }
@@ -421,13 +417,13 @@ hr.light-100 {
   #Schedule_body h4 {
     font-size: 120%;
     position: relative;
-    top: 65px;
+    top: 35px;
   }
 
   #Schedule_body h7 {
     font-size: 100%;
     position: relative;
-    top: 65px;
+    top: 35px;
   }
 
   #schd_img {
