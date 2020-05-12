@@ -489,7 +489,7 @@ hr.light-100 {
 
 @media (max-width: 330px) {
   .carousel-caption {
-    top: 22%;
+    top: 24%;
   }
 
   .carousel-caption h1 {
@@ -503,6 +503,15 @@ hr.light-100 {
   .carousel-caption .btn {
     font-size: 70%;
     padding: 2.5px 6px;
+  }
+
+  #Schedule_body ul {
+    position: relative;
+    left: -8%;
+  }
+  #Schedule_body h2 {
+    position: relative;
+    left: -2%;
   }
 }
 
