@@ -487,6 +487,27 @@ hr.light-100 {
 
 
 
+@media (max-width: 360px) {
+  .carousel-caption {
+    font-size: 
+    top: 22%;
+  }
+
+  .carousel-caption h1 {
+    font-size: 190%;
+  }
+
+  .carousel-caption h3 {
+    font-size: 75%;
+  }
+    
+  .carousel-caption .btn {
+    font-size: 70%;
+    padding: 2.5px 6px;
+  }
+}
+
+
 /*---Firefox Bug Fix --*/
 .carousel-item {
   transition: -webkit-transform 0.5s ease;
