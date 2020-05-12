@@ -511,7 +511,13 @@ hr.light-100 {
   }
   #Schedule_body h2 {
     position: relative;
-    left: -5%;
+    left: -3.5%;
+  }
+
+  #Schedule_body h3 {
+    font-size: 100%;
+    position: relative;
+    left: -1%;
   }
 }
 
