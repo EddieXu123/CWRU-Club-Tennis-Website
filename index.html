@@ -19,16 +19,16 @@
 		window.onscroll = function() {
 		var currentScrollPos = window.pageYOffset;
 		  if (prevScrollpos > currentScrollPos) {
-			document.getElementById("navbarResponsive").style.top = "0";
+			//document.getElementById("navbar_scroll").style.top = "0";
 		  } else {
-			document.getElementById("navbarResponsive").style.top = "-50px";
+			document.getElementById("navbar_scroll").style.top = "-100px";
 		  }
 		  prevScrollpos = currentScrollPos;
 		}
 	</script>
 
 <!-- Navigation --> 
-<nav class="navbar navbar-expand-md navbar-light sticky-top" style="background-color: rgba(255, 255, 255, 0.438);">
+<nav class="navbar navbar-expand-md navbar-light sticky-top" id="navbar_scroll" style="background-color: rgba(255, 255, 255, 0.438);">
 <div class="container-fluid">
 	<a class="navbar-brand" href="#">
 		<img src="image/Spartan Head.png">
