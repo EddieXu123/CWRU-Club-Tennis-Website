@@ -10,7 +10,9 @@ html, body {
 }
 
 img {
-    border-radius: 40%;
+    border-radius:50%;
+    width: 20%;
+    height: 40%;
 }
 
 .navbar {
@@ -224,6 +226,12 @@ hr.light-100 {
   .navbar-brand img {
     display: hidden;
   }
+
+  img {
+    width: 25%;
+    height: 35%;
+  }
+
   .social a {
     font-size: 4em;
     padding: 1.5rem;
@@ -238,6 +246,11 @@ hr.light-100 {
 @media (max-width: 1060px) {
   .carousel-caption {
     top: 40%;
+  }
+
+  img {
+    width: 30%;
+    height: 60%;
   }
 
   #Schedule_body h4 {
@@ -292,6 +305,11 @@ hr.light-100 {
 
   #Schedule_body h2 {
     font-size: 88%;
+  }
+
+  img {
+    width: 45%;
+    height: 65%;
   }
 
   #Schedule_body h3 {
